@@ -1,0 +1,60 @@
+
+form {
+    width: 300px; 
+    margin: 0 auto; 
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.register-btn, .pending-btn {
+    width: 100%; 
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    background-color: #91969b; 
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.pending-btn {
+    background-color: #28a745; 
+}
+
+.register-btn:hover, .pending-btn:hover {
+    background-color: #0056b3; 
+}
+
+
+.cookie-message {
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    background-color: #333; /* Optional: Add background color to make text more readable */
+}
+
+/* Background styling */
+body {
+    background-image: url('bg.jpg'); /* Background image */
+    background-size: cover;  /* Ensure the image covers the whole screen */
+    background-position: center;  /* Center the background image */
+    background-attachment: fixed; /* Keep the background fixed when scrolling */
+    font-family: Arial, sans-serif; /* Optional: Set a default font for the page */
+    color: white;
+}
+h1{
+    text-align: center;
+}
+.cookie-message {
+    color: white; /* White text for cookie message */
+    font-size: 16px;
+    padding: 10px;
+    background-color: #333; /* Optional: Add background color to make text more readable */
+    text-align: center; /* Center the cookie message */
+}
+p{
+    text-align: center;
+}
